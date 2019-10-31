@@ -1,0 +1,64 @@
+.Header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: rgb(25, 49, 65);
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  top: 0;
+}
+
+.Logo img {
+  width: 90%;
+  height: 90%;
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+
+}
+
+.Menu {
+  padding: 0;
+  padding-top: 20px;
+  margin: 0;
+  list-style: none;
+  
+}
+
+.Menu li {
+  display: block;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid rgb(14, 70, 107);
+  border-bottom: 1px solid rgb(14, 70, 107);
+}
+
+.Menu li:focus{
+  background: rgb(11, 0, 61);
+}
+
+
+.Menu li a{
+  color: #CCC;
+  text-decoration: none;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.Menu li:hover{
+  background-color: rgb(14, 70, 107);
+}
+
+.Menu a:hover{
+  color: rgb(255, 255, 255);
+}
+
+.Menu li a:focus {
+  background-color: rgb(14, 70, 107);
+}
